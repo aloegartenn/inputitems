@@ -1,0 +1,18 @@
+.zxc {
+    width: 50vw;
+    height: 30vh;
+    margin: 0px auto;
+    margin-top: 300px;
+    box-shadow: 0px 0px 4px black;
+    padding: 60px;
+}
+label {
+    margin-right: 10px;
+    font-size: 24px;
+}
+input:valid {
+    background-color: green;
+}
+input:invalid {
+    background-color: red;
+}
