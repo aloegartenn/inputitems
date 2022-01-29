@@ -10,9 +10,16 @@ label {
     margin-right: 10px;
     font-size: 24px;
 }
-input:valid {
-    background-color: green;
+small +small{
+    display: none;
+    
 }
-input:invalid {
-    background-color: red;
+input:valid + small {
+    display: none;
+}
+input:invalid + small + small {
+    display: inline;    
+}
+small{
+    margin-left: 295px;
 }
