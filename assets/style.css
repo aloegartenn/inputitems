@@ -20,6 +20,10 @@ input:valid + small {
 input:valid + small + small {
     display: inline;    
 }
-small{
-    margin-left: 295px;
+input:valid {
+    background-color: red;
+
+}
+input:invalid {
+    background-color: blue;
 }
