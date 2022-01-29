@@ -17,7 +17,7 @@ small +small{
 input:valid + small {
     display: none;
 }
-input:invalid + small + small {
+input:valid + small + small {
     display: inline;    
 }
 small{
