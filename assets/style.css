@@ -14,7 +14,7 @@ small +small{
     display: none;
     
 }
-input:valid + small {
+input:invalid + small {
     display: none;
 }
 input:valid + small + small {
