@@ -9,21 +9,18 @@
 label {
     margin-right: 10px;
     font-size: 24px;
+    
 }
-small +small{
+div > small +small{
     display: none;
     
 }
-input:invalid + small {
+input:valid + div > small {
     display: none;
 }
-input:valid + small + small {
+input:valid + div > small + small {
     display: inline;    
 }
-input:valid {
-    background-color: red;
-
-}
-input:invalid {
-    background-color: blue;
+small{
+    margin-left: 295px;
 }
